@@ -1,4 +1,4 @@
-concatenacao = 'Luiz' + ' ' + 'Otávio'
+concatenacao = 'Luiz' + str(1) + ' ' + 'Otávio'
 print(concatenacao)
 
 a_dez_vezes = 'A' * 10
