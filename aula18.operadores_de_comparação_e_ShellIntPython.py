@@ -15,3 +15,8 @@ menor_ou_igual = 2 <= 2
 igual = 'a' == 'a'
 diferente = 'a' != 'b'
 print('Olha meu print aqui')
+print(maior) #True(boolean)
+
+#shell interativo do python
+#entrar: python -i arquivo.py
+#sair: quit()

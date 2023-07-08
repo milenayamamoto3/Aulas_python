@@ -13,7 +13,6 @@
             "justMyCode": false
         },
         {
-       
             "name": "Python Debug",
             "type": "python",
             "request": "launch",

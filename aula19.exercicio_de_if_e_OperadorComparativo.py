@@ -1,4 +1,4 @@
-primeiro_valor = input('Digite o valor: ')
+primeiro_valor = input('Digite o valor: ') 
 segundo_valor = input('Digite outro valor: ')
 
 if primeiro_valor >= segundo_valor:
