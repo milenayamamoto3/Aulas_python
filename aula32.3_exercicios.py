@@ -49,33 +49,16 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-#resolução 1:
-nome_user = input('Qual seu primeiro nome? ')
-
-if 1 <= len(nome_user) <=4:
-    print('Seu nome é curto')
-
-if 5 <= len(nome_user) <= 6:
-    print('Seu nome é normal')
-
-if 6 < len(nome_user):
-    print('Seu nome é muito grande')
-
-else:
-    print('Digite algo ou sem ser números')
-
-#resolução 2:
 nome = input('Qual seu primeiro nome? ')
-try:
-    nome_str = str(nome)
-    if len(nome_str) <= 4:
+if nome:
+    if len(nome) <= 4:
         print('Seu nome é curto') 
-    elif len(nome_str) >= 5 and len(nome_str) <= 6:
+    elif len(nome) >= 5 and len(nome) <= 6:
         print('Seu nome é normal')
-    elif len(nome_str) > 6:
+    else:
         print('Seu nome é muito grande')
-except:
-    print('Digite apenas letras')
+else:
+    print('Digite algo.')
 
 
 
