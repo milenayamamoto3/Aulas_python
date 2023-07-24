@@ -9,11 +9,6 @@ print(nome)
 print(tamanho_nome)
 print(nome[3])
 
-nova_string = ''
-nova_string += '*L*u*i*z* *O*t*á*v*i*o*'
-
-#resposta 
-
 indice = 0
 novo_nome = ''
 while indice < len(nome):
