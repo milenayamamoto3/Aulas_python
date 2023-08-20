@@ -33,7 +33,7 @@ while True:
             palavra_formada += letra_secreta
         else:
             palavra_formada += "*"
-    print('palavra_formada:', palavra_formada)
+    print('palavra formada:', palavra_formada)
     
     if palavra_formada == palavra_secreta:
         print('Parabéns ! Você acertou!')
