@@ -9,7 +9,7 @@ lista = ['Maria', 'Helena', 'Luiz']
 lista.append('João')
 
 
-indices = range(len(lista))
+indices = range(len(lista)) # 0->3
 
 for indice in indices:
     print(indice, lista[indice], type(lista[indice]))

@@ -1,7 +1,7 @@
 """
 for in com listas
 """
-lista = ['Maria', 'Helena', 'Luiz']
+lista = [5.9 , 'Helena', 'Luiz']
 
 for nome in lista:
     print(nome, type(nome))
