@@ -1,10 +1,13 @@
 """
 Interpretador do Python
+versão python --version ou -V
 python mod.py (executa o mod)
-python -u (unbuffered)
-python -m mod (lib mod como script)
-python -c 'cmd' (comando)
-python -i mod.py (interativo com mod)
+python -u (unbuffered) -> executa o mod sem salvar
+python -m mod (lib mod como script) -> executa uma biblioteca do python como script. Ex.:"-m venv ambiente" 
+python -c 'cmd' (comando) -> executa comando como "print('Oi');print(1)"
+python -i mod.py (interativo com mod) -> executa o print e interage 
+python -> executa o código diretamente , não salva
+
 The Zen of Python, por Tim Peters
 Bonito é melhor que feio.
 Explícito é melhor que implícito.
