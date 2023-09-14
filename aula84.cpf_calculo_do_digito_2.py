@@ -22,6 +22,7 @@ contrário disso:
 O segundo dígito do CPF é 0
 """
 cpf = '74682489070'
+
 nove_digitos = cpf[:9]
 contador_regressivo_1 = 10
 resultado_1 = 0
