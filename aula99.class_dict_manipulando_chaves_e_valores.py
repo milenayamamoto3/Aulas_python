@@ -27,3 +27,5 @@ else:
     print(pessoa['sobrenome'])
 
 #outro modo de manipular o erro "keyError", é usando "Try e Except".
+print(pessoa.get('sobrenome', 'Não existe')) # método "get" se existir, imprime(valor do 1º arg),
+# se não existir, imprime(valor dado do 2º arg).
