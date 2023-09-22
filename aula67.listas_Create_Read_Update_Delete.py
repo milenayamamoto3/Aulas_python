@@ -20,3 +20,4 @@ lista.append(60)
 lista.append(70)
 ultimo_valor = lista.pop(3) #esse argumento é o índice que exclue
 print(lista, 'Removido,', ultimo_valor)
+
