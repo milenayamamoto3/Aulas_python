@@ -34,3 +34,6 @@ for i in range(10):
 from aula123modularizacao_m import *
 print(variavel) #consegue puxar
 # print(variavel_2) -> não consegue puxar, pois não está no __all__
+
+
+
