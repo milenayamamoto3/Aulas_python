@@ -13,12 +13,13 @@ alunos = [
     {'nome': 'Anderson', 'nota': 'C'},
 ]
 
-def ordena(aluno):
+def ordena(aluno): #função para ordenar os itens "aluno" pela sua chave "nota"
     return aluno['nota']
 
-
-alunos_agrupados = sorted(alunos, key=ordena)
-grupos = groupby(alunos_agrupados, key=ordena)
+alunos_agrupados = sorted(alunos, key=ordena) #função sorted ordena a lista (cópia rasa)
+#primeiro ordena usando a função sorted
+grupos = groupby(alunos_agrupados, key=ordena) 
+#segundo agrupa pelo valor da chave(nota)
 
 for chave, grupo in grupos:
     print(chave)

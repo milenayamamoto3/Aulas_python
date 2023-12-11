@@ -7,7 +7,7 @@
 
 # lista = [4, 32, 1, 34, 5, 6, 6, 21]
 # lista.sort()  -> ordenação 
-# sorted(lisa) -> ordenação (cópia rasa da lista)
+# sorted(lista) -> ordenação (cópia rasa da lista)
 # lista.sort(reverse=True) -> ordenação invertida
 # print(lista)
 
