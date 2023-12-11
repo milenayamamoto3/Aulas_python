@@ -16,3 +16,4 @@
 # digite "gcm python" para saber informações do programa python
 # digite "-Syntax" para aparecer o local detalhado do local de armazenamento do python
 # digite "which python" para saber onde o python está localizado
+#
