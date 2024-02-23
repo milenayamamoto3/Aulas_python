@@ -19,5 +19,5 @@ p1 = Pessoa(**dados)
 # del p1.__dict__['nome']
 # print(p1.__dict__)
 
-print(vars(p1))
+print(vars(p1)) # vars mostra a variável em dicionário
 print(p1.nome)
