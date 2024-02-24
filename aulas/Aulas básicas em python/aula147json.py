@@ -16,7 +16,7 @@ pessoa = {
     'nada': None,
 }
 
-caminho_arquivo1 = 'C:\\Users\\acerc\\OneDrive\\Área de Trabalho\\projetos_python\\aulas'
+caminho_arquivo1 = 'C:\\Users\\acerc\\OneDrive\\Área de Trabalho\\Aulas Python\\aulas'
 caminho_arquivo1 += 'aula147.json'
 
 with open(caminho_arquivo1, 'w', encoding='utf8') as arquivo1:

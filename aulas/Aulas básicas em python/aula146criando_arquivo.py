@@ -19,7 +19,7 @@
 
 # Leia também: https://www.otaviomiranda.com.br/2020/normalizacao-unicode-em-python/
 
-caminho_arquivo = 'C:\\Users\\acerc\\OneDrive\\Área de Trabalho\\projetos_python\\aulas'
+caminho_arquivo = 'C:\\Users\\acerc\\OneDrive\\Área de Trabalho\\Aulas Python\\aulas'
 caminho_arquivo += 'aula146.txt'
 
 # arquivo = open(caminho_arquivo, 'w')
