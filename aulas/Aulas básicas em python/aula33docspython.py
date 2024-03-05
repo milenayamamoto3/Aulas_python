@@ -1,5 +1,6 @@
 """
 https://docs.python.org/pt-br/3/library/stdtypes.html
+https://docs.python.org/3/library/pathlib.html
 Imutáveis que vimos até agora: str, int, float, bool
 """
 variavel = '6Luiz Otavio'
